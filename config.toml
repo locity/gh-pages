@@ -1,3 +1,5 @@
-baseurl = "http://replace-this-with-your-hugo-site.com/"
-title = "My New Hugo Site"
-languageCode = "en-us"
+baseurl = "http://www.locity.de/"
+title = "Locity UG"
+languageCode = "de-de"
+theme = "hugo-freelancer-theme"
+publishdir = "docs"
