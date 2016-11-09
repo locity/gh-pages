@@ -1,5 +1,6 @@
 baseurl = "http://www.locity.de/"
 title = "Locity UG"
 languageCode = "de-de"
-theme = "hugo-freelancer-theme"
+theme = "hugo-agency-theme" #http://themes.gohugo.io/agency/
 publishdir = "docs"
+email = "lehmann@locity.com"
