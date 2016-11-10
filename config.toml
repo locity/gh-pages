@@ -34,7 +34,7 @@ googleAnalytics = ""
   email = "lehmann@locity.com"
 
   # Link custom assets relative to /static
-  custom_css = []
+  custom_css = ["css/styles.css"]
   custom_js  = []
 
   # Possibility to disable external/additional fonts
@@ -170,15 +170,11 @@ googleAnalytics = ""
     # All team member's pictures are stored under 'static/img/team'.
     # Replace them with your own too.
 
-    # [[params.team.members]]
-    #   img = ""
-    #   name = "Larry Parker"
-    #   position = "Lead Marketer"
-    #   social = [
-    #     ["fa-twitter", "#"],
-    #     ["fa-facebook", "#"],
-    #     ["fa-linkedin", "#"]
-    #   ]
+    [[params.team.members]]
+      img = ""
+      name = ""
+      position = ""
+      social = []
 
     [[params.team.members]]
       img = "marco_lehmann.jpg"
@@ -188,8 +184,16 @@ googleAnalytics = ""
         ["fa-github", "https://github.com/themlee"],
         ["fa-xing", "https://www.xing.com/profile/Marco_Lehmann4"],
         ["fa-linkedin", "https://www.linkedin.com/in/marcolehmannhh"],
-        ["fa-twitter", "https://twitter.com/themlee"]
+        ["fa-twitter", "https://twitter.com/themlee"],
+        ["fa-external-link", "http://www.mlee.de"],
+        ["fa-envelope", "mailto:lehmann@locity.de"]
       ]
+
+      [[params.team.members]]
+        img = ""
+        name = ""
+        position = ""
+        social = []
 
     # [[params.team.members]]
     #   img = "2.jpg"
@@ -223,11 +227,11 @@ googleAnalytics = ""
 
       [[params.clients]]
         logo = "op-rufdienst_logo.png"
-        link = "#"
-      #
-      # [[params.clients]]
-      #   logo = "themeforest.jpg"
-      #   link = "#"
+        link = "http://op-rufdienst.de"
+
+      [[params.clients]]
+        logo = "von_logo.png"
+        link = "http://schlittenhundetouren.net"
       #
       # [[params.clients]]
       #   logo = "creative-market.jpg"
@@ -280,10 +284,10 @@ googleAnalytics = ""
       icon = "fa-twitter"
       link = "https://twitter.com/locity_de"
 
-    [[params.footer.quicklinks]]
-      text = "Privacy Policy"
-      link = "#"
+    # [[params.footer.quicklinks]]
+    #   text = "Privacy Policy"
+    #   link = "#"
 
     [[params.footer.quicklinks]]
-      text = "Terms of Use"
+      text = "Impressum"
       link = "#"

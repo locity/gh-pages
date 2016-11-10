@@ -1,0 +1,20 @@
+/* Mobile & Desktop */
+.clients {
+  background-color: #ddd;
+}
+
+.list-inline.social-buttons>li {
+  padding: 5px;
+}
+
+/* Mobile */
+@media (max-width: 991px) {
+
+}
+
+/* Desktop */
+@media (min-width: 992px) {
+  footer ul.quicklinks {
+    text-align: right;
+  }
+}
