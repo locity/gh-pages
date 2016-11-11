@@ -10,9 +10,9 @@ title = "Impressum"
 
 __Geschäftsführer:__ Marco Lehmann
 
-__Adresse:__ Neusurenland 160, 22159 Hamburg
-
 ---
+
+__Adresse:__ Neusurenland 160, 22159 Hamburg
 
 __Mobile:__ +49.179.5201820
 
@@ -21,6 +21,8 @@ __Telefon:__ +49.40.53267281
 __Fax:__ +49.40.60941595.9
 
 __eMail:__ lehmann@locity.de
+
+---
 
 __Geschäftsführung:__ Marco Lehmann
 
