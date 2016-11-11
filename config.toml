@@ -56,7 +56,7 @@ googleAnalytics = ""
     services = "Services"
     portfolio = "Portfolio"
     about = "About"
-    team = "Team"
+    team = "Über uns"
     contact = "Kontakt"
 
     # Add custom links. Those can be pre- and postpended to the default menu above.
@@ -163,9 +163,9 @@ googleAnalytics = ""
   # Team section
   [params.team]
     enable = true
-    title = "Our amazing team"
-    subtitle = "Lorem ipsum dolor sit amet consectetur."
-    description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde."
+    title = "Über uns"
+    subtitle = ""
+    description = ""
 
     # All team member's pictures are stored under 'static/img/team'.
     # Replace them with your own too.
@@ -242,7 +242,7 @@ googleAnalytics = ""
   [params.contact]
     enable = true
     title = "Kontakt"
-    subtitle  = "Lorem ipsum dolor sit amet consectetur."
+    subtitle  = "Locity UG (haftungsbeschränkt) -  Neusurenland 160 - 22159 Hamburg"
     buttonText = "Nachricht senden"
 
     # 'warning' defines error messages for invalid inputs
