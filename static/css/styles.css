@@ -3,6 +3,14 @@
   background-color: #ddd;
 }
 
+.single-content {
+  padding-top: 120px;
+}
+
+body.single .navbar-default {
+  background-color: #222;
+}
+
 .list-inline.social-buttons>li {
   padding: 5px;
 }
@@ -10,6 +18,13 @@
 /* Mobile */
 @media (max-width: 991px) {
 
+}
+
+/* Phone */
+@media (max-width: 767px) {
+  .single-content {
+    padding-top: 60px;
+  }
 }
 
 /* Desktop */

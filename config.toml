@@ -87,7 +87,7 @@ googleAnalytics = ""
 
   # Services section
   [params.services]
-    enable = true
+    enable = false
     title = "Services"
     subtitle = "Lorem ipsum dolor sit amet consectetur."
 
@@ -110,7 +110,7 @@ googleAnalytics = ""
 
   # Portfolio section
   [params.portfolio]
-    enable = true
+    enable = false
     # All projects defined in their own files. You can find example projects
     # at 'exampleSite/data/projects'. Copy the 'projects' folder into the 'data' directory
     # at the root of this Hugo site.
@@ -127,7 +127,7 @@ googleAnalytics = ""
 
     # About section
   [params.about]
-    enable = true
+    enable = false
     title = "About"
     subtitle = "Lorem ipsum dolor sit amet consectetur."
     endpoint = "Be part<br>of our<br>story!"
@@ -290,4 +290,4 @@ googleAnalytics = ""
 
     [[params.footer.quicklinks]]
       text = "Impressum"
-      link = "#"
+      link = "/static/impressum"

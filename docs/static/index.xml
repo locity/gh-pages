@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Locity UG</title>
-    <link>http://www.locity.de/index.xml</link>
-    <description>Recent content on Locity UG</description>
+    <title>Static-rsses on Locity UG</title>
+    <link>http://www.locity.de/static/index.xml</link>
+    <description>Recent content in Static-rsses on Locity UG</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>de-de</language>
-    <atom:link href="http://www.locity.de/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://www.locity.de/static/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Impressum</title>
