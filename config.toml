@@ -240,7 +240,7 @@ googleAnalytics = ""
 
   # Contact section
   [params.contact]
-    enable = true
+    enable = false
     title = "Kontakt"
     subtitle  = "Locity UG (haftungsbeschränkt) -  Neusurenland 160 - 22159 Hamburg"
     buttonText = "Nachricht senden"
