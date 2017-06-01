@@ -196,6 +196,7 @@ googleAnalytics = ""
       social = [
         ["fa-github", "https://github.com/TobiasKrogh"],
         ["fa-xing", "https://www.xing.com/profile/Tobias_Krogh"],
+        ["fa-stack-overflow", "http://stackoverflow.com/users/1342159/tobias-krogh"],
         ["fa-envelope", "mailto:krogh@locity.de"]
       ]
       
