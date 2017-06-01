@@ -1,9 +1,9 @@
 baseurl = "http://www.locity.de/"
-title = "Locity UG"
+title = "Locity GmbH"
 languageCode = "de-de"
 theme = "hugo-agency-theme" #http://themes.gohugo.io/agency/
 publishdir = "docs"
-email = "lehmann@locity.de"
+email = "contact@locity.de"
 
 googleAnalytics = ""
 
@@ -17,8 +17,8 @@ googleAnalytics = ""
 
   # To provide some metadata for search engines feel free to add a few
   # information about you and your website.
-  name = "Locity UG"
-  description = "Locity UG (haftungsbeschränkt) Entwicklungsleistungen, Management und das Halten von Beteiligungen"
+  name = "Locity GmbH"
+  description = "Locity GmbH Entwicklungsleistungen, Management und das Halten von Beteiligungen"
 
   # Since this template is static, the contact form uses www.formspree.io as a
   # proxy. The form makes a POST request to their servers to send the actual
@@ -31,7 +31,7 @@ googleAnalytics = ""
   # - send a dummy email yourself to confirm your account
   # - click the confirm link in the email from www.formspree.io
   # - you're done. Happy mailing!
-  email = "lehmann@locity.de"
+  email = "contact@locity.de"
 
   # Link custom assets relative to /static
   custom_css = ["css/styles.css"]
@@ -52,7 +52,7 @@ googleAnalytics = ""
 
   # Navigation
   [params.navigation]
-    brand = "Locity UG"
+    brand = "Locity GmbH"
     services = "Services"
     portfolio = "Portfolio"
     about = "About"
@@ -185,15 +185,20 @@ googleAnalytics = ""
         ["fa-xing", "https://www.xing.com/profile/Marco_Lehmann4"],
         ["fa-linkedin", "https://www.linkedin.com/in/marcolehmannhh"],
         ["fa-twitter", "https://twitter.com/themlee"],
-        ["fa-external-link", "http://www.mlee.de"],
+        ["fa-external-link", "http://mlee.de"],
         ["fa-envelope", "mailto:lehmann@locity.de"]
       ]
 
-      [[params.team.members]]
-        img = ""
-        name = ""
-        position = ""
-        social = []
+    [[params.team.members]]
+      img = ""
+      name = "Tobias Krogh"
+      position = "Geschäftsführer"
+      social = [
+        ["fa-github", "https://github.com/TobiasKrogh"],
+        ["fa-xing", "https://www.xing.com/profile/Tobias_Krogh"],
+        ["fa-envelope", "mailto:krogh@locity.de"]
+      ]
+      
 
     # [[params.team.members]]
     #   img = "2.jpg"
@@ -242,7 +247,7 @@ googleAnalytics = ""
   [params.contact]
     enable = false
     title = "Kontakt"
-    subtitle  = "Locity UG (haftungsbeschränkt) -  Neusurenland 160 - 22159 Hamburg"
+    subtitle  = "Locity GmbH -  Neusurenland 160 - 22159 Hamburg"
     buttonText = "Nachricht senden"
 
     # 'warning' defines error messages for invalid inputs
@@ -266,7 +271,7 @@ googleAnalytics = ""
   # Footer section
   [params.footer]
     enable = true
-    copyright = "© 2016 Locity UG (haftungsbeschränkt)"
+    copyright = "© 2017 Locity GmbH"
 
     [[params.footer.social]]
       icon = "fa-github"
