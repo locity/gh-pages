@@ -6,7 +6,7 @@ title = "Impressum"
 
 # Impressum
 
-#### Locity UG (haftungsbeschränkt)
+#### Locity GmbH
 
 __Geschäftsführer:__ Marco Lehmann
 
